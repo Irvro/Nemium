@@ -20,6 +20,25 @@
 
     
 
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
 </head>
 <body>
     <div class="hero"></div>
@@ -133,8 +152,8 @@
             <div class="main-content">
                 
                 
-                    <h1>Curso Esencial de HTML y CSS
-                    </h1>
+                    <h1>Curso Esencial de HTML y CSS</h1>
+                    
                     <p>Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de contenidos, en el nivel 2 aprenderás de componentes y en 3 sobre layouts.</p>
                     
                     
@@ -176,18 +195,18 @@
                             <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la estructura del contenido.</p>
                         
                             <pre>
-                &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1.0&quot;/&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
                 
-                &lt;html lang=&quot;en&quot;&gt;
-                &lt;head&gt;
-                &lt;meta charset=&quot;UTF-8&quot; /&gt;
-                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1.0&quot;/&gt;
-                &lt;title&gt;Document&lt;/title&gt;
-                &lt;/head&gt;
-                &lt;body&gt;
-                &lt;/body&gt;
-                
-                &lt;/html&gt;</pre>
+&lt;/html&gt;</pre>
                             
                             <h3 id="concepto2">Etiquetas</h3>
                             <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene características y usos diferentes aunque visualmente den un resultado similar.
@@ -247,15 +266,75 @@
                     <hr>
                 
                 
+                    
+                </div>
+                
+                <div class="section-content">
+                    
                     <h2>Hola estos son unos videos muy lindos</h2>
 
-            </div>
+                    <div class="slider">
+                        <scroll-container class="slider-container">
+
+                            <scroll-page class="slider-slide" id="video-1">
+
+                                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/WVOH00wVFbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+                            </scroll-page>
 
 
 
+                            <scroll-page class="slider-slide" id="video-2">
+
+                                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/WVOH00wVFbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            </scroll-page>
+
+
+
+                            <scroll-page class="slider-slide" id="video-3">
+
+                                
+
+                                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/WVOH00wVFbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            </scroll-page>
+
+
+                        </scroll-container>
+
+                        <div class="slider-bullet-list">
+
+                            <a href="#video-1" class="bullet"></a>
+                            <a href="#video-2" class="bullet"></a>
+                            <a href="#video-3" class="bullet"></a>
+
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+
+                <p>Si tienes alguna pregúnta escríbeme a <a href="mailto:me@leonidasesteban.com">correo@electronico.com</a></p>
+
+                <div class="section-content">
+
+                    <h2>Ingresa a nuestro Newsletter</h2>
+                    
+                    <form action="#" class="form">
+
+                        <input type="text" required placeholder="Nombre">
+                        <input type="text" required placeholder="Correo electrónico">
+                        <input type="submit" value="Suscribirme">
+
+
+
+                    </form>
+
+                </div>
         </div>
-
-
 
     </div>
 
